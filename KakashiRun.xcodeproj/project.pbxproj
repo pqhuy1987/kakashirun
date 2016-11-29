@@ -88,7 +88,7 @@
 		B1401D141D4CF90E00608BE8 /* poof.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = poof.wav; sourceTree = "<group>"; };
 		B1401D161D4CF94600608BE8 /* jungle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jungle.jpg; sourceTree = "<group>"; };
 		B1401D181D4CFA2300608BE8 /* Run__000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Run__000.png; sourceTree = "<group>"; };
-		B15BB8B81D30E3E500C03B9D /* Lone Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lone Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15BB8B81D30E3E500C03B9D /* KakashiRun.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakashiRun.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15BB8BB1D30E3E500C03B9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B15BB8BD1D30E3E500C03B9D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		B15BB8BF1D30E3E500C03B9D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 		B15BB8B91D30E3E500C03B9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B15BB8B81D30E3E500C03B9D /* Lone Runner.app */,
+				B15BB8B81D30E3E500C03B9D /* KakashiRun.temp_caseinsensitive_rename.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -221,9 +221,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B15BB8B71D30E3E500C03B9D /* Lone Runner */ = {
+		B15BB8B71D30E3E500C03B9D /* Kakashirun */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B15BB8CE1D30E3E500C03B9D /* Build configuration list for PBXNativeTarget "Lone Runner" */;
+			buildConfigurationList = B15BB8CE1D30E3E500C03B9D /* Build configuration list for PBXNativeTarget "Kakashirun" */;
 			buildPhases = (
 				B91201DC10BCCB9306C49728 /* [CP] Check Pods Manifest.lock */,
 				B15BB8B41D30E3E500C03B9D /* Sources */,
@@ -236,9 +236,9 @@
 			);
 			dependencies = (
 			);
-			name = "Lone Runner";
+			name = Kakashirun;
 			productName = "Lone Runner";
-			productReference = B15BB8B81D30E3E500C03B9D /* Lone Runner.app */;
+			productReference = B15BB8B81D30E3E500C03B9D /* KakashiRun.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -253,11 +253,11 @@
 				TargetAttributes = {
 					B15BB8B71D30E3E500C03B9D = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 7A465W2DPF;
+						DevelopmentTeam = JQNK74493B;
 					};
 				};
 			};
-			buildConfigurationList = B15BB8B31D30E3E500C03B9D /* Build configuration list for PBXProject "Lone Runner" */;
+			buildConfigurationList = B15BB8B31D30E3E500C03B9D /* Build configuration list for PBXProject "KakashiRun" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -270,7 +270,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B15BB8B71D30E3E500C03B9D /* Lone Runner */,
+				B15BB8B71D30E3E500C03B9D /* Kakashirun */,
 			);
 		};
 /* End PBXProject section */
@@ -492,13 +492,13 @@
 			baseConfigurationReference = 9E9FD2788842A904E9DEB6FD /* Pods-Lone Runner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Siddarth Patel (7A465W2DPF)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Siddarth Patel (7A465W2DPF)";
 				INFOPLIST_FILE = "Lone Runner/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fineapps.Lone-Runner";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.kakashirun.100;
+				PRODUCT_NAME = KakashiRun.temp_caseinsensitive_rename;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -509,13 +509,13 @@
 			baseConfigurationReference = EAE8CE59D9EAC80E30579BE3 /* Pods-Lone Runner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Siddarth Patel (7A465W2DPF)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Siddarth Patel (7A465W2DPF)";
 				INFOPLIST_FILE = "Lone Runner/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fineapps.Lone-Runner";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.kakashirun.100;
+				PRODUCT_NAME = KakashiRun.temp_caseinsensitive_rename;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -524,7 +524,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B15BB8B31D30E3E500C03B9D /* Build configuration list for PBXProject "Lone Runner" */ = {
+		B15BB8B31D30E3E500C03B9D /* Build configuration list for PBXProject "KakashiRun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B15BB8CC1D30E3E500C03B9D /* Debug */,
@@ -533,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B15BB8CE1D30E3E500C03B9D /* Build configuration list for PBXNativeTarget "Lone Runner" */ = {
+		B15BB8CE1D30E3E500C03B9D /* Build configuration list for PBXNativeTarget "Kakashirun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B15BB8CF1D30E3E500C03B9D /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B15BB8B71D30E3E500C03B9D"
-               BuildableName = "Lone Runner.app"
-               BlueprintName = "Lone Runner"
-               ReferencedContainer = "container:Lone Runner.xcodeproj">
+               BuildableName = "KakashiRun.temp_caseinsensitive_rename.app"
+               BlueprintName = "Kakashirun"
+               ReferencedContainer = "container:KakashiRun.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B15BB8B71D30E3E500C03B9D"
-            BuildableName = "Lone Runner.app"
-            BlueprintName = "Lone Runner"
-            ReferencedContainer = "container:Lone Runner.xcodeproj">
+            BuildableName = "KakashiRun.temp_caseinsensitive_rename.app"
+            BlueprintName = "Kakashirun"
+            ReferencedContainer = "container:KakashiRun.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B15BB8B71D30E3E500C03B9D"
-            BuildableName = "Lone Runner.app"
-            BlueprintName = "Lone Runner"
-            ReferencedContainer = "container:Lone Runner.xcodeproj">
+            BuildableName = "KakashiRun.temp_caseinsensitive_rename.app"
+            BlueprintName = "Kakashirun"
+            ReferencedContainer = "container:KakashiRun.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B15BB8B71D30E3E500C03B9D"
-            BuildableName = "Lone Runner.app"
-            BlueprintName = "Lone Runner"
-            ReferencedContainer = "container:Lone Runner.xcodeproj">
+            BuildableName = "KakashiRun.temp_caseinsensitive_rename.app"
+            BlueprintName = "Kakashirun"
+            ReferencedContainer = "container:KakashiRun.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
