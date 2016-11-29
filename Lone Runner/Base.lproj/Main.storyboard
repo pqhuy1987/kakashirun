@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dkZ-OV-PbK">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="GameViewController" customModule="Lone_Runner" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8aa-yV-Osq"/>
+                        <viewControllerLayoutGuide type="bottom" id="qHh-Mt-9TT"/>
+                    </layoutGuides>
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="dkZ-OV-PbK" kind="show" identifier="back" id="CsO-Tj-bMa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="510.5" y="-206.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Klx-PL-tww">
+            <objects>
+                <viewController id="rQR-qV-u4v" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TTO-UL-84D"/>
+                        <viewControllerLayoutGuide type="bottom" id="awT-3e-aW0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BO0-HE-WbV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cev-ik-zte">
+                                <rect key="frame" x="139" y="467" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dkZ-OV-PbK" kind="show" id="rsq-Nu-tel"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1. Timing is everything." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DDd-Lc-R9I">
+                                <rect key="frame" x="2" y="148" width="320" height="29"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Gameplay" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QpL-ZQ-8BP">
+                                <rect key="frame" x="25" y="53" width="275" height="30"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="27"/>
+                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2. Escape the obstacles by simply timing your touch and release" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ntQ-Mv-VRp">
+                                <rect key="frame" x="0.0" y="214" width="320" height="41"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="3. Unlock special abilities as you add to your score." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Mm-ji-bfP">
+                                <rect key="frame" x="0.0" y="287" width="320" height="48"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DDd-Lc-R9I" firstAttribute="leading" secondItem="BO0-HE-WbV" secondAttribute="leadingMargin" constant="-18" id="1f6-c9-rmS"/>
+                            <constraint firstItem="ntQ-Mv-VRp" firstAttribute="top" secondItem="DDd-Lc-R9I" secondAttribute="bottom" constant="37" id="3Ar-7k-X5U"/>
+                            <constraint firstItem="0Mm-ji-bfP" firstAttribute="top" secondItem="ntQ-Mv-VRp" secondAttribute="bottom" constant="32" id="3EM-5r-EnJ"/>
+                            <constraint firstItem="awT-3e-aW0" firstAttribute="top" secondItem="Cev-ik-zte" secondAttribute="bottom" constant="71" id="QTk-3R-agH"/>
+                            <constraint firstItem="DDd-Lc-R9I" firstAttribute="top" secondItem="QpL-ZQ-8BP" secondAttribute="bottom" constant="65" id="Zm6-cD-hFd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0Mm-ji-bfP" secondAttribute="trailing" constant="-20" id="aC9-Ln-Pgq"/>
+                            <constraint firstItem="Cev-ik-zte" firstAttribute="leading" secondItem="BO0-HE-WbV" secondAttribute="leadingMargin" constant="119" id="dgM-AQ-4sl"/>
+                            <constraint firstItem="QpL-ZQ-8BP" firstAttribute="leading" secondItem="BO0-HE-WbV" secondAttribute="leadingMargin" constant="5" id="fDa-Tk-yVw"/>
+                            <constraint firstItem="0Mm-ji-bfP" firstAttribute="leading" secondItem="BO0-HE-WbV" secondAttribute="leadingMargin" constant="-20" id="gWN-7e-ihm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Cev-ik-zte" secondAttribute="trailing" constant="115" id="iH5-oV-bZT"/>
+                            <constraint firstItem="QpL-ZQ-8BP" firstAttribute="trailing" secondItem="BO0-HE-WbV" secondAttribute="trailingMargin" id="jMb-oh-kid"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DDd-Lc-R9I" secondAttribute="trailing" constant="-22" id="p1G-Aa-9Ul"/>
+                            <constraint firstItem="QpL-ZQ-8BP" firstAttribute="leading" secondItem="BO0-HE-WbV" secondAttribute="leadingMargin" constant="5" id="voB-S3-pA3"/>
+                            <constraint firstItem="QpL-ZQ-8BP" firstAttribute="top" secondItem="TTO-UL-84D" secondAttribute="bottom" constant="33" id="w8w-Yf-6RR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ntQ-Mv-VRp" secondAttribute="trailing" constant="-20" id="xyu-V8-279"/>
+                            <constraint firstItem="ntQ-Mv-VRp" firstAttribute="leading" secondItem="BO0-HE-WbV" secondAttribute="leadingMargin" constant="-20" id="ydi-F6-qmZ"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="63N-YV-GrV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-648" y="-4"/>
+        </scene>
+        <!--Highscore View Controller-->
+        <scene sceneID="Qpb-yD-BT2">
+            <objects>
+                <viewController id="PKD-vv-1R0" customClass="HighscoreViewController" customModule="Lone_Runner" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kRh-iv-GUY"/>
+                        <viewControllerLayoutGuide type="bottom" id="vig-u3-gI3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LD3-6E-pYc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mK4-0k-Clj">
+                                <rect key="frame" x="76" y="239" width="168" height="90"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="45"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFJ-UV-Ndd">
+                                <rect key="frame" x="135" y="440" width="50" height="30"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="21"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dkZ-OV-PbK" kind="show" id="1zZ-4V-FBE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Your best" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bvm-sd-5fc">
+                                <rect key="frame" x="113" y="63" width="95" height="21"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="XFJ-UV-Ndd" secondAttribute="trailing" constant="115" id="0xM-Fr-R8h"/>
+                            <constraint firstItem="vig-u3-gI3" firstAttribute="top" secondItem="XFJ-UV-Ndd" secondAttribute="bottom" constant="98" id="8Su-hb-PBH"/>
+                            <constraint firstItem="Bvm-sd-5fc" firstAttribute="top" secondItem="kRh-iv-GUY" secondAttribute="bottom" constant="43" id="8fC-gf-oxr"/>
+                            <constraint firstItem="XFJ-UV-Ndd" firstAttribute="leading" secondItem="LD3-6E-pYc" secondAttribute="leadingMargin" constant="115" id="Dq4-zL-FVH"/>
+                            <constraint firstItem="mK4-0k-Clj" firstAttribute="top" secondItem="kRh-iv-GUY" secondAttribute="bottom" constant="219" id="Ec2-1y-HFX"/>
+                            <constraint firstItem="Bvm-sd-5fc" firstAttribute="leading" secondItem="LD3-6E-pYc" secondAttribute="leadingMargin" constant="93" id="Efj-Bs-OnD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Bvm-sd-5fc" secondAttribute="trailing" constant="92" id="Xv4-x4-5Ll"/>
+                            <constraint firstItem="mK4-0k-Clj" firstAttribute="leading" secondItem="LD3-6E-pYc" secondAttribute="leadingMargin" constant="56" id="YRd-aB-atP"/>
+                            <constraint firstItem="vig-u3-gI3" firstAttribute="top" secondItem="mK4-0k-Clj" secondAttribute="bottom" constant="239" id="bBh-hb-4uK"/>
+                            <constraint firstItem="XFJ-UV-Ndd" firstAttribute="top" secondItem="mK4-0k-Clj" secondAttribute="bottom" constant="111" id="gEp-EH-B1w"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mK4-0k-Clj" secondAttribute="trailing" constant="56" id="uI7-OQ-gbx"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="highscoreLabel" destination="mK4-0k-Clj" id="e5q-Yq-LA0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vJH-Nm-8rc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="414" y="551"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="w4q-Vz-g6p">
+            <objects>
+                <viewController id="dkZ-OV-PbK" customClass="MenuViewController" customModule="Lone_Runner" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O8w-hE-9I1"/>
+                        <viewControllerLayoutGuide type="bottom" id="csQ-p2-z8G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="acx-Yn-E0e">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="free-vector-ninja_102578_ninja.png" translatesAutoresizingMaskIntoConstraints="NO" id="m19-cz-xwq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="m19-cz-xwq" firstAttribute="leading" secondItem="acx-Yn-E0e" secondAttribute="leadingMargin" constant="-20" id="GxZ-l1-9im"/>
+                            <constraint firstItem="csQ-p2-z8G" firstAttribute="top" secondItem="m19-cz-xwq" secondAttribute="bottom" id="LlG-3h-06r"/>
+                            <constraint firstItem="m19-cz-xwq" firstAttribute="top" secondItem="acx-Yn-E0e" secondAttribute="topMargin" id="QNO-2g-LHw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="m19-cz-xwq" secondAttribute="trailing" constant="-20" id="mks-Td-66x"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="BV1-FR-VrT" kind="show" identifier="play" id="rja-xb-UmO"/>
+                        <segue destination="PKD-vv-1R0" kind="show" identifier="highscore" id="sCE-MZ-dBr"/>
+                        <segue destination="rQR-qV-u4v" kind="show" identifier="instructions" id="i7F-p3-Smj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="35U-AX-5jY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="58.5" y="-206.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="free-vector-ninja_102578_ninja.png" width="607" height="800"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="rsq-Nu-tel"/>
+    </inferredMetricsTieBreakers>
+</document>

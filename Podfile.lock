@@ -1,0 +1,15 @@
+PODS:
+  - CircleMenu (1.0.7)
+  - DynamicButton (2.1.0)
+
+DEPENDENCIES:
+  - CircleMenu (~> 1.0)
+  - DynamicButton (~> 2.1)
+
+SPEC CHECKSUMS:
+  CircleMenu: ddd8000fe2774497c367b8f6fcc2354a9a28f4db
+  DynamicButton: 08c809fdee3c4feb34a20beeba64c069a529d176
+
+PODFILE CHECKSUM: e3da7502d7ebab72f88db6692ccac1ee31b047a1
+
+COCOAPODS: 1.0.1
