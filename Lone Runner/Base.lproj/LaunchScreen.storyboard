@@ -30,8 +30,8 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Kakashi Run" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAz-I0-jkf">
-                                <rect key="frame" x="104" y="356" width="112" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Ninja Spinki Jungle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAz-I0-jkf">
+                                <rect key="frame" x="43" y="356" width="234" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -39,10 +39,10 @@
                         </subviews>
                         <color key="backgroundColor" red="0.88094681500000005" green="0.79049140210000002" blue="0.61800020929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="uAz-I0-jkf" firstAttribute="top" secondItem="GSK-MK-Ks7" secondAttribute="bottom" constant="3" id="42F-WO-kNo"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="uAz-I0-jkf" secondAttribute="bottom" constant="62" id="6eu-0X-wae"/>
-                            <constraint firstItem="uAz-I0-jkf" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="92" id="81H-lC-V7a"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="uAz-I0-jkf" secondAttribute="trailing" constant="91" id="Y9M-4S-x0U"/>
+                            <constraint firstItem="uAz-I0-jkf" firstAttribute="top" secondItem="GSK-MK-Ks7" secondAttribute="bottom" constant="8" id="42F-WO-kNo"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="uAz-I0-jkf" secondAttribute="bottom" constant="191" id="6eu-0X-wae"/>
+                            <constraint firstItem="uAz-I0-jkf" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="23" id="81H-lC-V7a"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uAz-I0-jkf" secondAttribute="trailing" constant="23" id="Y9M-4S-x0U"/>
                             <constraint firstItem="z4A-Xr-qMj" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="218" id="YpE-Iy-nHK"/>
                             <constraint firstItem="z4A-Xr-qMj" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="23" id="auJ-2i-9wk"/>
                             <constraint firstAttribute="trailingMargin" secondItem="z4A-Xr-qMj" secondAttribute="trailing" constant="23" id="g6k-B2-NR8"/>
